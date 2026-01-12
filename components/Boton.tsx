@@ -17,3 +17,8 @@ export default function Boton({texto,onPress}:BotonProps) {
     </Pressable>
   )
 }
+
+
+
+
+

@@ -3,8 +3,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { View, Text } from "react-native";
 
 import clsx from "clsx";
-import { Toolbar } from "components/Toolbar";
 import Boton from "components/Boton";
+import Toolbar from "components/Toolbar";
 
 const styles = {
   texto: "text-3xl font-bold"
