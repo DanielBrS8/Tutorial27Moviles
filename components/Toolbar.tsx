@@ -8,14 +8,14 @@ export default function Toolbar() {
                     tam.width < 1024 ? 28 : 32;
 
   return (
-    <View className='w-full flex-row items-center bg-blue-700 justify-between px-4
+    <View className='w-full flex-row items-center dark:bg-darkPrimary justify-between px-4
                       h-14
                       lg:h-20
                       sm:h-18
       '>
       <View className='flex-row items-center gap-3'>
         <MaterialIcons name={"menu"} size={tamIconos} color={"white"}/>
-        <Text className='font-bold color-white
+        <Text className='font-bold color-text
                         text-2xl
                         sm:text-3xl
                         lg:text-4xl
